@@ -1,0 +1,25 @@
+Show Repositories
+    ->git remote -v
+Cgange Repositories URL
+    ->git remote set-url origin https://github.com/Tuhin-Reza/Example.git
+ALL file Add
+    ->git add .
+git message
+    ->git commit -m "all done "
+git push
+    ->git push
+
+
+echo "# Example" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tuhin-Reza/Example.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Tuhin-Reza/Example.git
+git branch -M main
+git push -u origin main
+
