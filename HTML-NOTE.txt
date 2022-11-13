@@ -1,0 +1,125 @@
+HTML Tutorial
+What is HTML?
+HyperText Markup Language or HTML is an important part of most of the web pages and web applications.
+Features of HTML:
+
+Simple language.
+Easy to understand and to modify.
+Includes many formatting tags, and thus easy to create an effective presentation.
+Markup language.
+Provides a flexible way to design web pages along with the text.
+Facilitates the addition of links on the web pages.
+Platform-independent and supports all platforms including Windows, Linux, and Macintosh, etc.
+Facilitates the addition of Graphics, Videos, and Sound to the web pages.
+Attractive and interactive language.
+Case-insensitive language.
+
+History of HTML:
+
+The father of HTML is Tim Berners-Lee, a physicist, who wrote a memo proposing an internet-based 
+hypertext system in 1989, and since that time a lot of HTML versions were developed.
+HTML 1.0	1991
+HTML 5	2008
+
+Explanation:
+
+<!DOCTYPE>: It is used to define the document type. It can also be used to instruct the browser about the HTML version.
+
+<html>:Defines the root of an HTML document. It is a tag which is used to specify to the browser that it is an HTML document. It contains all the elements of HTML other than <!DOCTYPE> and thus the web document is described by the text between HTML tag.
+
+<head>: It is a tag inside the <html> tag, also the first element inside the <html> element which is used as a container for the metadata (data about data) and is closed before the body tag opens. Here, metadata means the information related to the document.
+The HTML <meta> Element
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+The metadata will not be displayed on the page, but is used by browsers (how to display content or reload page), by search engines (keywords), and other web services.
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="John Doe">
+<title>: It is the next tag and an optional tag placed inside the <head> tag which is used to add a title to the HTML page and is closed immediately. This title appears at the top of the browser window.
+
+<body>:	Defines the document's body. It is a tag inside the <html> tag, also the next element inside the <html> element after the <head> element, which is used as a container for the body content of the page, also the main content of the HTML document. These contents are visible to the end-user.
+
+HTML Elements
+The HTML element is everything from the start tag to the end tag:
+<tagname>Content goes here...</tagname>
+Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+Nested HTML Elements
+HTML elements can be nested (this means that elements can contain other elements).
+All HTML documents consist of nested HTML elements.
+
+
+HTML is Not Case Sensitive
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+
+HTML Attributes
+HTML attributes provide additional information about HTML elements.
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>href attribute specifies the URL of the page the link goes to
+<img src="img_girl.jpg"> The src attribute specifies the path to the image to be displayed:
+
+HTML Headings
+There are 6 heading tags.
+Browsers automatically add some white space (a margin) before and after a heading.
+
+Headings Are Important
+Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+Note: Use HTML headings for headings only. Don't use headings to make text BIG or bold.
+
+HTML Paragraphs
+The HTML <p> element defines a paragraph.
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+HTML Display
+You cannot be sure how HTML will be displayed.
+
+Large or small screens, and resized windows will create different results.
+
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+
+The browser will automatically remove any extra spaces and lines when the page is displayed
+
+HTML Horizontal Rules->	Defines a thematic change in the content
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The <hr> element is used to separate content (or define a change) in an HTML page.
+
+HTML Line Breaks->Inserts a single line break
+The HTML <br> element defines a line break.
+Use <br> if you want a line break (a new line) without starting a new paragraph.The <br> tag is an empty tag, which means that it has no end tag.
+
+HTML <pre> Element->Defines pre-formatted text
+The HTML <pre> element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+
+HTML Style Attribute->Setting the style of an HTML element, can be done with the style attribute.
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+
+HTML Text Formatting
+<b>	Defines bold text
+<em>	Defines emphasized text 
+<i>	Defines a part of text in an alternate voice or mood
+<small>	Defines smaller text
+<strong>Defines important text
+<sub>	Defines subscripted text.Subscript text can be used for chemical formulas, like H2O.
+<sup>	Defines superscripted text.Superscript text can be used for footnotes, like WWW[1].
+<ins>	Defines inserted text.Browsers will usually underline inserted text.
+<del>	Defines deleted text
+<mark>	Defines marked/highlighted tex
+
