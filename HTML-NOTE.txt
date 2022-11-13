@@ -123,3 +123,31 @@ HTML Text Formatting
 <del>	Defines deleted text
 <mark>	Defines marked/highlighted tex
 
+
+<abbr>	        Defines an abbreviation or acronym.
+<address>	Defines contact information for the author/owner of a document
+<bdo>	        Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work.Note: A person's name is not the title of a work.
+<q>	        Defines a short inline quotation.The HTML <q> tag defines a short quotation. 
+
+What is CSS?
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+Using CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+HTML Links - Hyperlinks
+Note: A link does not have to be text. A link can be an image or any other HTML element!
+HTML Links - Syntax
+The HTML <a> tag defines a hyperlink.The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+HTML Links - The target Attribute
+
+The target attribute specifies where to open the linked document.
+//link read agian
+
+
